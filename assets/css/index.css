@@ -72,10 +72,10 @@ header li:hover {
 }
 
 header a:hover {
-    color: white;
+    color: var(--white);
 }
 
 header a {
-    color: black;
+    color: var(--black);
     text-decoration: none;
 }
