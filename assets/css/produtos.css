@@ -65,10 +65,6 @@
     background-color: var(--inputclr);
 }
 
-.pags a:hover {
-    color: var(--white);
-}
-
 .pags a {
     color: var(--black);
     text-decoration: none;
