@@ -8,6 +8,7 @@
     --topclr: #e4e4e4;
     /* Linhas */
     --line: 2px solid #cccccc;
+    --clearline: 2px solid white
 }
 
 * {
@@ -294,4 +295,77 @@ header a {
     width: fit-content;
     padding: 10px;
     border-radius: 8px;
+}
+
+footer {
+    padding: 60px;
+    background-color: var(--inputclr);
+}
+
+
+.cont {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont1, .cont2{
+    display: flex;
+    gap: 8px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+footer li {
+    margin-right: 15px;
+    padding: 5px;
+    width: 175px;
+    border-radius: 10px;
+}
+
+footer li:hover {
+    background-color: var(--inputclr);
+}
+
+footer a:hover {
+    color: var(--white);
+}
+
+footer a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.cats h2, .sercli h2  {
+    border-bottom: var(--clearline);
+    margin-bottom: 20px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.catser{
+    display: flex;
+    gap: 30px;
+}
+
+.contact h6 {
+    font-size: 14px;
+}
+
+.cpry {
+    text-align: center;
+    border-top: var(--clearline);
+    margin-top: 20px;
 }
