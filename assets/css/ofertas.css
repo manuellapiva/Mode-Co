@@ -1,92 +1,84 @@
 
  {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 
 body {
-  background-color: white;
-  color: #333;
+    background-color: #fff;
+    color: #333;
 }
 
 
 .banner img {
-  width: 100%;
-  height: auto;
-  display: block;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 
 .ofertas {
-  text-align: center;
-  padding: 30px 10px;
+    text-align: center;
+    padding: 40px 20px;
 }
 
 .ofertas h2 {
-  font-size: 24px;
-  margin-bottom: 8px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .ofertas p {
-  font-size: 16px;
-  margin-bottom: 30px;
+    font-size: 18px;
+    margin-bottom: 40px;
 }
 
-
 .produtos {
-  display: grid;
-  gap: 25px;
-  max-width: 1000px;
-  margin: 0 auto;
-  d
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin: 0 auto;
+    max-width: 1100px;
 }
 
 
 .produto {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 10px;
-  text-align: center;
-  transition: 0.3s;
-}
-
-.produto:hover {
-  background-color: #f9f9f9;
+    width: 300px; 
+    border-radius: 10px;
+    padding: 15px;
+    
 }
 
 .produto img {
-  width: 100%;
-  border-radius: 6px;
+    width: 100%;
+    border-radius: 8px;
 }
 
 .produto h3 {
-  font-size: 14px;
-  margin: 10px 0 5px 0;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    color: #333;
 }
 
 .preco {
-  font-size: 14px;
+    font-size: 16px;
+    color: #000;
 }
 
 .preco span {
-  text-decoration: line-through;
-  color: gray;
-  margin-right: 5px;
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 6px;
 }
 
 
 footer {
-  text-align: center;
-  background-color: #f0f0f0;
-  padding: 15px;
-  color: #555;
-  font-size: 13px;
-  margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    font
 }
-
-
-
-
