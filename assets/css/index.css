@@ -1,0 +1,81 @@
+:root{
+    /* Cores */
+    --headerclr: #e4e4e4;
+    --inputclr: #cccccc;
+    --white: white;
+    --black: black;
+    --liclr: #e0e0e0;
+    --topclr: #e4e4e4;
+    /* Linhas */
+    --line: 2px solid #cccccc;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+.searchbar{
+    background-color: var(--inputclr);
+    gap: 100px;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+header input {
+    border: none;
+    background-color: var(--inputclr);
+    width: 666px;
+}
+
+header .icons {
+    display: flex;
+    gap: 40px;
+}
+
+header .top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--topclr);
+    padding: 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    border-bottom: var(--line);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+header li {
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 10px;
+    background-color: var(--liclr);
+    padding: 10px;
+    width: 175px;
+    border-radius: 10px;
+}
+
+header li:hover {
+    background-color: var(--inputclr);
+}
+
+header a:hover {
+    color: white;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
