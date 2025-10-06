@@ -79,3 +79,37 @@ header a {
     color: var(--black);
     text-decoration: none;
 }
+
+.firstimgs{
+    width: 100%;
+    /* height: 400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstimgs img{
+    width: 100%;
+}
+
+.h1img{
+    position: absolute;
+    text-align: center;
+    color: var(--white);
+    background-color: rgba(204, 204, 204, 0.45);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnh1{
+    position: absolute;
+    bottom: 18%;
+    padding: 10px;
+    text-align: center;
+    color: var(--black);
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+}
