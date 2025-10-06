@@ -1,0 +1,63 @@
+.ct {
+    display: flex;
+    background-color: #E4E4E4;
+    align-items: center;
+    gap: 300px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.ct1 {
+    width: 400px;
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+.ct2 {
+    font-size: 20px;
+    width: 500px;
+}
+
+.center {
+    justify-items: center;
+    font-size: 30px;
+    margin-top: 40px;
+
+
+}
+
+.cm {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.celular {
+   background-color: #cccccc;
+    width: 300px;
+    height: 200px;
+    justify-content: end;
+    border-radius: 10px;
+
+}
+
+.email {
+    background-color: #cccccc;
+    width: 300px;
+    height: 200px;
+    justify-content: end;
+    border-radius: 10px;
+
+}
+
+.visite {
+    background-color: #cccccc;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    border-radius: 10px;
+
+}
