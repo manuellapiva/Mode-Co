@@ -1,4 +1,4 @@
-:root{
+:root {
     /* Cores */
     --headerclr: #e4e4e4;
     --inputclr: #cccccc;
@@ -10,7 +10,7 @@
     --line: 2px solid #cccccc;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -19,7 +19,7 @@ header h1 {
     font-size: 40px;
 }
 
-.searchbar{
+.searchbar {
     background-color: var(--inputclr);
     gap: 100px;
     width: fit-content;
@@ -78,3 +78,220 @@ header a:hover {
 header a {
     color: var(--black);
     text-decoration: none;
+}
+
+.firstimgs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.firstimgs img {
+    width: 100%;
+}
+
+.h1img {
+    position: absolute;
+    text-align: center;
+    color: var(--white);
+    background-color: rgba(204, 204, 204, 0.45);
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnh1 {
+    position: absolute;
+    bottom: 10%;
+    padding: 10px;
+    text-align: center;
+    color: var(--black);
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+}
+
+.liner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: var(--line);
+}
+
+.seeall {
+    text-decoration: none;
+    color: black;
+    align-self: center;
+}
+
+.seeall:hover {
+    background-color: var(--inputclr);
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.launches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.launches img {
+    width: 250px;
+}
+
+.secimgs {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.secimgs img {
+    width: 100%;
+}
+
+.h1sec {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(204, 204, 204, 0.45);
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnsec {
+    position: absolute;
+    top: 250%;
+    padding: 10px;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--inputclr);
+    border-radius: 10px;
+    display: flex;
+}
+
+.mostsell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.mostsell img {
+    width: 250px;
+}
+
+.thirdimg {
+    margin-top: 30px;
+    width: 75%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    margin-bottom: 30px;
+}
+
+.h1thi {
+    position: absolute;
+    background-color: rgba(204, 204, 204, 0.45);
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+
+.btnthi {
+    margin-left: 20px;
+    position: absolute;
+    top: 494%;
+    padding: 10px;
+    text-align: center;
+    color: var(--black);
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+}
+
+.quarimg {
+    margin-top: 30px;
+    width: 75%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-bottom: 30px;
+}
+
+.h1quar {
+    position: absolute;
+    text-align: end;
+    background-color: rgba(204, 204, 204, 0.45);
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-right: 20px;
+}
+
+.btnquar {
+    margin-right: 20px;
+    position: absolute;
+    top: 494%;
+    padding: 10px;
+    text-align: center;
+    color: var(--black);
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+}
+
+.thirdimg img,
+.quarimg img {
+    width: 100%;
+}
+
+.bottomimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 30px;
+}
+
+.store {
+    background-color: var(--headerclr);
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btnstr {
+    background-color: var(--white);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+}
