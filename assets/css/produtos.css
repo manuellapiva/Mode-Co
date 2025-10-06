@@ -1,10 +1,71 @@
 .cards{
     display:flex;
     justify-content: space-around;
+    padding-top: 20px;
 } 
 
-.linhadebaixo{
-    padding-left: 50rem;
-    padding-top: 80px;
+.cards p{
+    font-size: 23px;
 }
 
+.card2{
+    margin-top: 35px;
+}
+
+.card5{
+    margin-top: 35px;
+}
+
+.card8{
+    margin-top: 35px;
+}
+
+.card3{
+    margin-top: 35px;
+}
+
+.card6{
+    margin-top: 35px;
+}
+
+.card9{
+    margin-top: 35px;
+}
+
+.pags{
+    padding-left: 45rem;
+    padding-top: 80px;
+    font-size: 23px;
+}
+.pags{
+    display: flex;
+    list-style: none;
+}
+.pags ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    border-bottom: var(--line);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.pags li {
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.pags li:hover {
+    background-color: var(--inputclr);
+}
+
+.pags a {
+    color: var(--black);
+    text-decoration: none;
+}
