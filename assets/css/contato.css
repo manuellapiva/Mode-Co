@@ -5,7 +5,6 @@
     gap: 300px;
     margin: 0;
     padding: 0;
-
 }
 
 .ct1 {
@@ -44,6 +43,25 @@
 
 }
 
+.celular h4{
+    font-size: 26px;
+}
+.email h4{
+     font-size: 26px;
+}
+.visite h4{
+     font-size: 26px;
+}
+.celular h5{
+    font-size: 20px;
+}
+.email h5{
+     font-size: 20px;
+}
+.visite h5{
+     font-size: 20px;
+}
+
 .email {
     background-color: #cccccc;
     width: 300px;
@@ -61,3 +79,48 @@
     border-radius: 10px;
 
 }
+.where{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.contato {
+    color: rgb(0, 0, 0);
+    background-color:#cccccc;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 600px;
+    background-image: url(../img/blusaimg1.webp);
+    padding-left:10px;
+    padding-top: 10px;
+}
+
+input,
+select,
+button,h1 {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    transition: 0.9s;
+}
+
+.cm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topocm{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+.increva-se{
+   font-size: 30px; 
+   margin-top: 20px;
+}
+
