@@ -1,4 +1,4 @@
-:root{
+:root {
     /* Cores */
     --headerclr: #e4e4e4;
     --inputclr: #cccccc;
@@ -10,7 +10,7 @@
     --line: 2px solid #cccccc;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -19,7 +19,7 @@ header h1 {
     font-size: 40px;
 }
 
-.searchbar{
+.searchbar {
     background-color: var(--inputclr);
     gap: 100px;
     width: fit-content;
@@ -80,7 +80,7 @@ header a {
     text-decoration: none;
 }
 
-.firstimgs{
+.firstimgs {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -88,23 +88,23 @@ header a {
     margin-bottom: 30px;
 }
 
-.firstimgs img{
+.firstimgs img {
     width: 100%;
 }
 
-.h1img{
+.h1img {
     position: absolute;
     text-align: center;
     color: var(--white);
     background-color: rgba(204, 204, 204, 0.45);
-        padding: 8px;
+    padding: 8px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.btnh1{
+.btnh1 {
     position: absolute;
     bottom: 10%;
     padding: 10px;
@@ -150,7 +150,7 @@ header a {
     width: 250px;
 }
 
-.secimgs{
+.secimgs {
     margin-top: 30px;
     width: 100%;
     display: flex;
@@ -159,11 +159,11 @@ header a {
     margin-bottom: 30px;
 }
 
-.secimgs img{
+.secimgs img {
     width: 100%;
 }
 
-.h1sec{
+.h1sec {
     position: absolute;
     text-align: center;
     background-color: rgba(204, 204, 204, 0.45);
@@ -174,7 +174,7 @@ header a {
     align-items: center;
 }
 
-.btnsec{
+.btnsec {
     position: absolute;
     top: 250%;
     padding: 10px;
@@ -196,4 +196,102 @@ header a {
 
 .mostsell img {
     width: 250px;
+}
+
+.thirdimg {
+    margin-top: 30px;
+    width: 75%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    margin-bottom: 30px;
+}
+
+.h1thi {
+    position: absolute;
+    background-color: rgba(204, 204, 204, 0.45);
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+
+.btnthi {
+    margin-left: 20px;
+    position: absolute;
+    top: 494%;
+    padding: 10px;
+    text-align: center;
+    color: var(--black);
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+}
+
+.quarimg {
+    margin-top: 30px;
+    width: 75%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-bottom: 30px;
+}
+
+.h1quar {
+    position: absolute;
+    text-align: end;
+    background-color: rgba(204, 204, 204, 0.45);
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-right: 20px;
+}
+
+.btnquar {
+    margin-right: 20px;
+    position: absolute;
+    top: 494%;
+    padding: 10px;
+    text-align: center;
+    color: var(--black);
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+}
+
+.thirdimg img,
+.quarimg img {
+    width: 100%;
+}
+
+.bottomimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 30px;
+}
+
+.store {
+    background-color: var(--headerclr);
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btnstr {
+    background-color: var(--white);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
 }
