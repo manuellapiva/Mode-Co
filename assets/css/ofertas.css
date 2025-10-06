@@ -1,0 +1,19 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+body {
+    background-color: #fff;
+    color: #333;
+} 
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.ofertas {
+    text-align: center;
+    padding: 40px 20px;
+}
