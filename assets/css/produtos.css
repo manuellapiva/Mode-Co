@@ -69,3 +69,5 @@
     color: var(--black);
     text-decoration: none;
 }
+
+@media (min-width)
