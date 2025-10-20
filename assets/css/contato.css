@@ -1,6 +1,6 @@
 .ct {
     display: flex;
-    background-color: #E4E4E4;
+    background-color: (--headerclr);
     align-items: center;
     gap: 300px;
     padding: 2rem;
@@ -35,7 +35,7 @@
 }
 
 .celular {
-    background-color: #cccccc;
+    background-color: (--inputclr);
     width: 300px;
     height: 200px;
     justify-content: end;
@@ -57,7 +57,7 @@
 }
 
 .email {
-    background-color: #cccccc;
+    background-color:(--inputclr);
     width: 300px;
     height: 200px;
     justify-content: end;
@@ -66,7 +66,7 @@
 }
 
 .visite {
-    background-color: #cccccc;
+    background-color: (--inputclr);
     width: 300px;
     height: 200px;
     justify-content: center;
@@ -84,7 +84,7 @@
 }
 
 .contato {
-    background-color: #cccccc;
+    background-color:(--inputclr);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,8 +107,8 @@
 }
 
 .contato button:hover {
-    background-color: rgb(129, 129, 129);
-    color: white;
+    background-color:(--cinzacont);
+    color: (--white);
 }
 
 .contato button {
