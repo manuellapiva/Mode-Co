@@ -1,6 +1,6 @@
 .ct {
     display: flex;
-    background-color: #E4E4E4;
+    background-color: var(--headerclr);
     align-items: center;
     gap: 300px;
     padding: 2rem;
@@ -35,7 +35,7 @@
 }
 
 .celular {
-    background-color: #cccccc;
+    background-color: var(--inputclr);
     width: 300px;
     height: 200px;
     justify-content: end;
@@ -57,7 +57,7 @@
 }
 
 .email {
-    background-color: #cccccc;
+    background-color: var(--inputclr);
     width: 300px;
     height: 200px;
     justify-content: end;
@@ -66,7 +66,7 @@
 }
 
 .visite {
-    background-color: #cccccc;
+    background-color: var(--inputclr);
     width: 300px;
     height: 200px;
     justify-content: center;
@@ -84,7 +84,7 @@
 }
 
 .contato {
-    background-color: #cccccc;
+    background-color: var(--inputclr);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,8 +107,8 @@
 }
 
 .contato button:hover {
-    background-color: rgb(129, 129, 129);
-    color: white;
+    background-color: var(--cinzacont);
+    color: var(--white);
 }
 
 .contato button {
@@ -133,31 +133,88 @@
 /* Responsividade para tablet e computador */
 
 @media (min-width: 768px) and (max-width:1199px) {
-.ct {
+    .ct {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
 
-.ct1 {
+    .ct1 {
         margin-left: 0;
         width: 100%;
         text-align: center;
     }
 
-.ct2 {
+    .ct2 {
         width: 100%;
         text-align: center;
     }
 
-.celular,
-.email,
-.visite {
+    .celular,
+    .email,
+    .visite {
         width: 80%;
     }
 
-.contato {
+    .contato {
         width: 80%;
     }
 }
 
+/* Responsividade para celular */
+@media (max-width: 767px) {
+    .ct {
+        gap: 50px
+    }
+
+    .ct1 {
+        margin-left: 20px;
+        font-size: 18px;
+    }
+
+    .ct2 {
+        font-size: 14px;
+        width: 70%;
+    }
+
+    .center {
+        justify-items: center;
+        font-size: 22px;
+        margin-top: 40px;
+    }
+
+    .topocm {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .celular h4,
+    .email h4,
+    .visite h4 {
+        font-size: 22px;
+    }
+
+    .celular h5,
+    .email h5,
+    .visite h5 {
+        font-size: 18px;
+    }
+
+    .celular,
+    .email,
+    .visite {
+        width: 40%;
+    }
+
+    .where img {
+        width: 80%;
+    }
+
+    .contato label {
+        font-size: 20px;
+    }
+
+    .increva-se {
+        font-size: 22px;
+    }
+}
