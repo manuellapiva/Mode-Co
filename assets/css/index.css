@@ -231,7 +231,7 @@ button:hover{
 @media (min-width: 768px) and (max-width:1199px) {
 
     .btnh1 {
-        bottom: 47%;
+        bottom: 40%;
     }
 
     .launches {
@@ -240,7 +240,7 @@ button:hover{
     }
 
     .btnsec {
-        top: 185%;
+        top: 215%;
     }
 
     .mostsell {
@@ -251,13 +251,13 @@ button:hover{
     }
 
     .btnthi, .btnquar{
-        top: 358%;
+        top: 415%;
     }
 }
 
 @media (max-width: 768px) {
     .btnh1 {
-        bottom: 50%;
+        bottom: 45%;
     }
 
     .launches {
@@ -266,7 +266,7 @@ button:hover{
     }
 
     .btnsec {
-        top: 218%;
+        top: 249%;
     }
 
     .mostsell {
@@ -281,7 +281,7 @@ button:hover{
     }
 
     .btnthi, .btnquar{
-        top: 415%;
+        top: 470%;
     }
 
     .thirdimg {
