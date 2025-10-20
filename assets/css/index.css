@@ -6,6 +6,7 @@
     --black: black;
     --liclr: #e0e0e0;
     --topclr: #e4e4e4;
+    --gray: #7e7e7e;
     /* Linhas */
     --line: 2px solid #cccccc;
     --clearline: 2px solid white
@@ -136,6 +137,20 @@ header a {
     color: white;
     padding: 3px;
     border-radius: 5px;
+}
+
+button{
+    border: none;
+}
+
+.btnsec:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+button:hover{
+    background-color: var(--inputclr);
+    color: var(--white);
 }
 
 .launches {
