@@ -1,81 +1,299 @@
-:root{
-    /* Cores */
-    --headerclr: #e4e4e4;
-    --inputclr: #cccccc;
-    --white: white;
-    --black: black;
-    --liclr: #e0e0e0;
-    --topclr: #e4e4e4;
-    /* Linhas */
-    --line: 2px solid #cccccc;
+.firstimgs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
-*{
-    margin: 0;
-    padding: 0;
+.firstimgs img {
+    width: 100%;
 }
 
-header h1 {
-    font-size: 40px;
-}
-
-.searchbar{
-    background-color: var(--inputclr);
-    gap: 100px;
-    width: fit-content;
+.h1img {
+    position: absolute;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--gray);
     padding: 8px;
     border-radius: 10px;
-}
-
-header input {
-    border: none;
-    background-color: var(--inputclr);
-    width: 666px;
-}
-
-header .icons {
     display: flex;
-    gap: 40px;
-}
-
-header .top {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: var(--topclr);
-    padding: 20px;
-}
-
-header ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
     justify-content: center;
-    border-bottom: var(--line);
-    padding-top: 10px;
-    padding-bottom: 30px;
+    align-items: center;
 }
 
-header li {
-    text-align: center;
-    margin-right: 15px;
-    margin-top: 10px;
-    background-color: var(--liclr);
+.btnh1 {
+    position: absolute;
+    bottom: 10%;
     padding: 10px;
-    width: 175px;
+    text-align: center;
+    color: var(--black);
+    background-color: var(--white);
     border-radius: 10px;
+    display: flex;
 }
 
-header li:hover {
+.liner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: var(--line);
+}
+
+.seeall {
+    text-decoration: none;
+    color: black;
+    align-self: center;
+}
+
+.seeall:hover {
     background-color: var(--inputclr);
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
 }
 
-header a:hover {
+button{
+    border: none;
+}
+
+.btnsec:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+button:hover{
+    background-color: var(--inputclr);
     color: var(--white);
 }
 
-header a {
+.launches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.launches img {
+    width: 250px;
+}
+
+.secimgs {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.secimgs img {
+    width: 100%;
+}
+
+.h1sec {
+    position: absolute;
+    text-align: center;
+    background-color: var(--gray);
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnsec {
+    position: absolute;
+    top: 250%;
+    padding: 10px;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--inputclr);
+    border-radius: 10px;
+    display: flex;
+}
+
+.mostsell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.mostsell img {
+    width: 250px;
+}
+
+.thirdimg {
+    margin-top: 30px;
+    width: 75%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    margin-bottom: 30px;
+}
+
+.h1thi {
+    position: absolute;
+    background-color: var(--gray);
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+
+.btnthi {
+    margin-left: 20px;
+    position: absolute;
+    top: 494%;
+    padding: 10px;
+    text-align: center;
     color: var(--black);
-    text-decoration: none;
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+}
+
+.quarimg {
+    margin-top: 30px;
+    width: 75%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-bottom: 30px;
+}
+
+.h1quar {
+    position: absolute;
+    text-align: end;
+    background-color: var(--gray);
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-right: 20px;
+}
+
+.btnquar {
+    margin-right: 20px;
+    position: absolute;
+    top: 494%;
+    padding: 10px;
+    text-align: center;
+    color: var(--black);
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+}
+
+.thirdimg img,
+.quarimg img {
+    width: 100%;
+}
+
+.bottomimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 30px;
+}
+
+.store {
+    background-color: var(--headerclr);
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btnstr {
+    background-color: var(--white);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+@media (min-width: 768px) and (max-width:1199px) {
+
+    .btnh1 {
+        bottom: 47%;
+    }
+
+    .launches {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btnsec {
+        top: 185%;
+    }
+
+    .mostsell {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 40px;
+        border-bottom: var(--line);
+    }
+
+    .btnthi, .btnquar{
+        top: 358%;
+    }
+}
+
+@media (max-width: 768px) {
+    .btnh1 {
+        bottom: 50%;
+    }
+
+    .launches {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btnsec {
+        top: 218%;
+    }
+
+    .mostsell {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 40px;
+        border-bottom: var(--line);
+    }
+
+    .mostsell img {
+        width: 250px;
+    }
+
+    .btnthi, .btnquar{
+        top: 415%;
+    }
+
+    .thirdimg {
+        margin-top: 30px;
+        width: 75%;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        margin-bottom: 30px;
+    }
+
+    .h1thi, .h1quar {
+        font-size: 10px;
+    }
 }
