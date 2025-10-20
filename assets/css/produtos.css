@@ -16,14 +16,13 @@
 }
 
 .pags{
-    padding-left: 45rem;
     padding-top: 80px;
     font-size: 23px;
-}
-.pags{
     display: flex;
+    justify-content: center;
     list-style: none;
 }
+
 .pags ul {
     list-style: none;
     display: flex;
