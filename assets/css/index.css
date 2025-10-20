@@ -6,7 +6,7 @@
     --black: black;
     --liclr: #e0e0e0;
     --topclr: #e4e4e4;
-    --gray: #7e7e7e;
+    --gray: rgba(204, 204, 204, 0.45);
     /* Linhas */
     --line: 2px solid #cccccc;
     --clearline: 2px solid white
@@ -98,7 +98,7 @@ header a {
     position: absolute;
     text-align: center;
     color: var(--white);
-    background-color: rgba(204, 204, 204, 0.45);
+    background-color: var(--gray);
     padding: 8px;
     border-radius: 10px;
     display: flex;
@@ -182,7 +182,7 @@ button:hover{
 .h1sec {
     position: absolute;
     text-align: center;
-    background-color: rgba(204, 204, 204, 0.45);
+    background-color: var(--gray);
     padding: 8px;
     border-radius: 10px;
     display: flex;
@@ -225,7 +225,7 @@ button:hover{
 
 .h1thi {
     position: absolute;
-    background-color: rgba(204, 204, 204, 0.45);
+    background-color: var(--gray);
     padding: 8px;
     border-radius: 10px;
     display: flex;
@@ -259,7 +259,7 @@ button:hover{
 .h1quar {
     position: absolute;
     text-align: end;
-    background-color: rgba(204, 204, 204, 0.45);
+    background-color: var(--gray);
     padding: 8px;
     border-radius: 10px;
     display: flex;
