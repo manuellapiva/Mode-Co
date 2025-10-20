@@ -11,3 +11,20 @@
     padding-bottom: 0;
     font-size: 25px;
 }
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 200px;
+    margin: 40px;
+}
+
+.produtos img {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
