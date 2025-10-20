@@ -230,8 +230,31 @@ button:hover{
 
 @media (min-width: 768px) and (max-width:1199px) {
 
+    .btnh1 {
+        bottom: 47%;
+    }
+
+    .launches {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btnsec {
+        top: 185%;
+    }
+
+    .mostsell {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 40px;
+        border-bottom: var(--line);
+    }
+
+    .btnthi, .btnquar{
+        top: 358%;
+    }
 }
 
 @media (max-width: 768px) {
-
+    
 }
