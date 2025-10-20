@@ -28,3 +28,19 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (min-width: 768px) and (max-width:1199px) {
+
+.toptext{
+    text-align: center;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    margin: 40px;
+}
+}
