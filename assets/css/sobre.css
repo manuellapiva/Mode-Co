@@ -3,3 +3,39 @@ font-family: Arial, Helvetica, sans-serif;
 color: black;
 background-color: rgb(254, 255, 255);
 }
+
+.texto1{
+    text-align: center;
+}
+
+.texto2{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+.p-sobre {
+    text-align: justify !important;
+    /* background-color: aqua; */
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.IBV {
+    text-align: center;
+}
+
+.IBVimg{
+    display: flex;    
+}
+
+.contend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.linha{
+     border-top: 2px solid rgba(177, 176, 175, 0.904);
+}
