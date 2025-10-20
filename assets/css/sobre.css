@@ -30,11 +30,11 @@ color: var(--white);
     width: 100%;
 }
 
-.h1img{
+.h1img {
     top: 100%;
     position: absolute;
     text-align: center;
-    color:var(--white);
+    color: var(--white);
     font-size: 70px;
     padding: 8px;
     border-radius: 10px;
@@ -43,13 +43,13 @@ color: var(--white);
     align-items: center;
 }
 
-.texto{
+.texto {
     margin-left: 100px;
     margin-right: 100px;
     font-size: 20px;
     display: flex;
     justify-content: center;
-    text-align: center; 
+    text-align: center;
 }
 
 .topibv {
@@ -61,7 +61,7 @@ color: var(--white);
 
 .topibv h3 {
     font-size: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif';
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .IBV p {
@@ -73,32 +73,31 @@ color: var(--white);
     text-align: center;
 }
 
-@media (max-width: 768px) and (min-width: 1199px) {
+@media (min-width: 768px) and (max-width:1199px) {   
     .h1img {
+        font-size: 35px;
+        top: 50%;
+    }
+
+    .topibv {
         margin-top: 30px;
         text-align: center;
         gap: 50px;
     }
-
-    .topibv {
-        flex-direction: column;
-        gap: 40px;
-    }
 }
 
-
+/* Resposividade para Celular */
 @media (max-width: 768px) {
 
     .h1img {
-        font-size: 40px;
+        font-size: 35px;
         top: 45%;
     }
 
     .topibv {
         margin-top: 30px;
         text-align: center;
-        gap: 50%;
+        gap: 50px;
     }
-}
 
-    
+}
