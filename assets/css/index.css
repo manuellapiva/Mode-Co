@@ -227,3 +227,73 @@ button:hover{
     padding: 10px;
     border-radius: 8px;
 }
+
+@media (min-width: 768px) and (max-width:1199px) {
+
+    .btnh1 {
+        bottom: 47%;
+    }
+
+    .launches {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btnsec {
+        top: 185%;
+    }
+
+    .mostsell {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 40px;
+        border-bottom: var(--line);
+    }
+
+    .btnthi, .btnquar{
+        top: 358%;
+    }
+}
+
+@media (max-width: 768px) {
+    .btnh1 {
+        bottom: 50%;
+    }
+
+    .launches {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btnsec {
+        top: 218%;
+    }
+
+    .mostsell {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 40px;
+        border-bottom: var(--line);
+    }
+
+    .mostsell img {
+        width: 250px;
+    }
+
+    .btnthi, .btnquar{
+        top: 415%;
+    }
+
+    .thirdimg {
+        margin-top: 30px;
+        width: 75%;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        margin-bottom: 30px;
+    }
+
+    .h1thi, .h1quar {
+        font-size: 10px;
+    }
+}
