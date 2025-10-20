@@ -6,6 +6,7 @@
     --black: black;
     --liclr: #e0e0e0;
     --topclr: #e4e4e4;
+    --gray: rgba(204, 204, 204, 0.45);
     /* Linhas */
     --line: 2px solid #cccccc;
     --clearline: 2px solid white
@@ -21,7 +22,6 @@
 
 header h1 {
     font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .searchbar {
@@ -90,6 +90,19 @@ footer {
     background-color: var(--inputclr);
 }
 
+
+.cont {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont1, .cont2{
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+}
+
 footer ul {
     list-style: none;
     display: flex;
@@ -121,29 +134,7 @@ footer a {
     text-decoration: none;
 }
 
-.cont {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.cont1,
-.cont2 {
-    display: flex;
-    gap: 8px;
-    margin-top: 15px;
-}
-
-.contact h6 {
-    font-size: 14px;
-}
-
-.contact {
-    margin-top: 20px;
-}
-
-.cats h2,
-.sercli h2 {
+.cats h2, .sercli h2  {
     border-bottom: var(--clearline);
     padding-bottom: 15px;
 }
@@ -153,9 +144,13 @@ footer a {
     justify-content: space-evenly;
 }
 
-.catser {
+.catser{
     display: flex;
     gap: 30px;
+}
+
+.contact h6 {
+    font-size: 14px;
 }
 
 .cpry {
@@ -167,20 +162,12 @@ footer a {
     color: var(--topclr);
 }
 
-.fa-magnifying-glass:hover,
-.fa-user:hover,
-.fa-cart-shopping:hover {
-    color: var(--gray);
-}
-
-/* Responsividade para Tablet*/
-@media (min-width: 768px) and (max-width:1199px) {
-
+@media (min-width:768px) and (max-width:1199px) {
     header {
         width: 100%;
     }
 
-    header h1 {
+    header h1{
         font-size: 25px;
     }
 
@@ -188,7 +175,6 @@ footer a {
         background-color: var(--inputclr);
         gap: 100px;
         width: 70%;
-        padding: 8px;
         border-radius: 10px;
         display: flex;
     }
@@ -203,19 +189,17 @@ footer a {
         justify-content: center;
         align-self: center;
     }
-
 }
 
-/* Resposividade para Celular */
-@media (max-width: 768px) {
-
+@media (max-width:768px) {
     header {
         width: 100%;
     }
-    header h1 {
+    
+    header h1{
         font-size: 25px;
     }
-
+    
     .searchbar {
         background-color: var(--inputclr);
         padding: 8px;
@@ -223,30 +207,30 @@ footer a {
         width: 70%;
         display: flex;
     }
-
+    
     header input {
         border: none;
         background-color: var(--inputclr);
         width: 100%;
     }
-
+    
     header .icons {
         gap: 25px;
     }
-
+    
     header ul {
         justify-content: center;
         flex-wrap: wrap;
     }
-
+    
     footer {
         width: auto;
     }
-
+    
     .foot {
         display: flex;
         flex-wrap: wrap;
         gap: 50px;
     }
-
+ 
 }
