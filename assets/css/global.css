@@ -159,9 +159,74 @@ footer a {
 }
 
 @media (min-width:768px) and (max-width:1199px) {
+    header {
+        width: 100%;
+    }
 
+    header h1{
+        font-size: 25px;
+    }
+
+    .searchbar {
+        background-color: var(--inputclr);
+        gap: 100px;
+        width: 70%;
+        border-radius: 10px;
+        display: flex;
+    }
+
+    header .icons {
+        gap: 30px;
+    }
+
+    header a {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
 }
 
 @media (max-width:768px) {
+    header {
+        width: 100%;
+    }
+    
+    header h1{
+        font-size: 25px;
+    }
+    
+    .searchbar {
+        background-color: var(--inputclr);
+        padding: 8px;
+        border-radius: 10px;
+        width: 70%;
+        display: flex;
+    }
+    
+    header input {
+        border: none;
+        background-color: var(--inputclr);
+        width: 100%;
+    }
+    
+    header .icons {
+        gap: 25px;
+    }
+    
+    header ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    footer {
+        width: auto;
+    }
+    
+    .foot {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
  
 }
