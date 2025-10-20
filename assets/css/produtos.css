@@ -110,7 +110,6 @@
         text-align: center;
     }
 }   
-
 /* Celular */
 @media (max-width: 768px) {
     .cards {
