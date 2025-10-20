@@ -11,27 +11,7 @@
     font-size: 23px;
 }
 
-.card2{
-    margin-top: 35px;
-}
-
-.card5{
-    margin-top: 35px;
-}
-
-.card8{
-    margin-top: 35px;
-}
-
-.card3{
-    margin-top: 35px;
-}
-
-.card6{
-    margin-top: 35px;
-}
-
-.card9{
+.card2, .card5, .card8, .card3, .card6, .card9{
     margin-top: 35px;
 }
 
