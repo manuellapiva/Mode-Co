@@ -3,19 +3,19 @@
     background-color: #E4E4E4;
     align-items: center;
     gap: 300px;
-    margin: 0;
-    padding: 0;
+    padding: 2rem;
 }
 
 .ct1 {
     width: 400px;
     margin-left: 200px;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .ct2 {
-    font-size: 20px;
+    font-size: 16px;
     width: 500px;
+    font-weight: 100px;
 }
 
 .center {
@@ -32,6 +32,8 @@
     justify-content: space-around;
     text-align: center;
     border-radius: 50px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .celular {
@@ -40,27 +42,22 @@
     height: 200px;
     justify-content: end;
     border-radius: 10px;
-
+    padding: 20px;
 }
 
-.celular h4{
+.celular h4,
+.email h4,
+.visite h4 {
     font-size: 26px;
 }
-.email h4{
-     font-size: 26px;
-}
-.visite h4{
-     font-size: 26px;
-}
-.celular h5{
+
+.celular h5,
+.email h5,
+.visite h5 {
+    margin-top: 15px;
     font-size: 20px;
 }
-.email h5{
-     font-size: 20px;
-}
-.visite h5{
-     font-size: 20px;
-}
+
 
 .email {
     background-color: #cccccc;
