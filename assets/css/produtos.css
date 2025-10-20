@@ -69,3 +69,58 @@
     color: var(--black);
     text-decoration: none;
 }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .cards {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards img {
+        width: 70%;
+        height: auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards p,
+    .cards h3 {
+        font-size:15px;
+        width: 70%;
+    }
+
+    .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}   
+
+/* Celular */
+@media (max-width: 768px) {
+    .cards {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .cards p, .cards h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .pags {
+        font-size: 18px;
+        padding-top:50px;
+    }
+
+    .topimg img{
+        height:200px;
+        object-fit: cover;
+    }
+}
+    
