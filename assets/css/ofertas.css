@@ -1,0 +1,13 @@
+.banner {
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.toptext{
+    padding: 30px;
+    padding-bottom: 0;
+    font-size: 25px;
+}
